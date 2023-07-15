@@ -6,7 +6,7 @@ let porta = 3000;
 app.use(cookieParser());
 app.set('view engine', 'ejs');
 
-//-------------------Routes-------------------
+//----------------------------------Routes-----------------------------------
 app.get('/', (req, res)=>{
    res.render('menu');
 });
